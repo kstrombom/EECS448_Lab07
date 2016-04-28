@@ -1,0 +1,9 @@
+Name: Kate Strombom
+
+1) The size for a newly created list begins at 1, when it should begin at 0
+2) The addBack doesn't work when adding to a non-empty list; it will add the
+value of the first node over and over again
+3) removeFront acts like removeBack
+4) isEmpty doesn't work, presumably because the size is incorrect. Because
+isEmpty is dependent on size, and size is a private variable, there is no way to
+see what exactly is occuring in isEmpty.
